@@ -10,7 +10,7 @@ class Usuario(models.Model):
     nome = models.CharField(max_length=50)
     sobrenome = models.CharField(max_length=50)
     cpf = models.CharField(max_length=11)
-    telefone = models.CharField(max_length=20)
+    telefone = models.CharField(max_lengJth=20)
     email = models.EmailField()
     endereco = models.CharField(max_length=100)
     data_cadastro = models.DateTimeField(default=timezone.now)
